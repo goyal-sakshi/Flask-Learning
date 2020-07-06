@@ -1,0 +1,44 @@
+<!-- CHILD TEMPLATE -->
+
+<!-- This below code will plug everything from its base template and render it -->
+<!-- extends <path to base template> -->
+
+{% extends "public/templates/public_template.html" %}
+
+<!-- filling are base blocks -->
+{% block title %}Home{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+            <h1>Home Main</h1>
+    </div>
+</div>
+
+{% endblock %}
+
+
+
+
+<!-- THE BELOW THE THE EARLIER CODE [BASIC VERSION] -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css') }}">
+    <title>Index</title>
+</head>
+<body>
+    
+    <h1 style="color: red">Index!</h1>
+    <p>This is index</p>
+    <img style="max-width: 500px;" src="{{ url_for('static', filename='img/dog.jpg') }}">
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+</body>
+</html> -->

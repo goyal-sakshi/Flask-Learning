@@ -1,0 +1,9 @@
+# Message broker used here is Redis
+'''
+message broker kind of sits between the application and the task queue
+and bounces in between to tell the task queue that a new task has been
+added to the queue
+'''
+
+Start the redis server by => redis-server
+Start rq worker by => rq worker
