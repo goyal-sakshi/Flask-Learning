@@ -109,6 +109,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+flask_task_queue/task_q/
+flask_with_docker/flask_env/
+flask_with_http_methods/http_env/
 
 # Spyder project settings
 .spyderproject
